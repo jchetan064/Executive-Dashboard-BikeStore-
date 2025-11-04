@@ -49,3 +49,40 @@ select ord.order_id,
        CONCAT(sta.first_name,' ',sta.last_name) as sales_rep
 from ...
 group by ...
+
+
+## 📊 Tableau Dashboard
+
+**File:** `Executive Dashboard.twbx`  
+This Tableau dashboard visualizes key performance indicators (KPIs) from the BikeStores dataset.
+
+### Displays KPIs like:
+- 💰 **Total Sales & Revenue**
+- 🚴 **Top-performing Categories & Brands**
+- 🗺️ **Regional Performance by State/City**
+- 📆 **Sales Trends over Time**
+
+---
+
+## 🧮 Excel Report
+
+**File:** `Book2.xlsx`  
+Used to validate SQL query outputs and perform pivot-based summary analysis to cross-check data consistency.
+
+---
+
+## 📈 Insights
+
+- 🚴 **Trek** brand leads in overall sales performance.  
+- ⛰️ **Mountain Bikes** and **Road Bikes** generate the highest revenue.  
+- 🏙️ Store performance varies regionally, with **California** emerging as the top-performing market.  
+
+---
+
+## 🧑‍💻 Author
+
+**Chetan Joshi**  
+*M.Tech in Data Science | Data Analytics Enthusiast*  
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/chetan-joshi)   
+
